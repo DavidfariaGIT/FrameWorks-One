@@ -1,0 +1,87 @@
+body {
+  background-color: #202023;
+  margin: 0px 300px 0px 300px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #23232d;
+  width: 100%;
+  left:0px;
+  top: 0px;
+  position: absolute;   
+}
+
+.containerTwo {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+#Header {
+  font-family: Helvetica;
+  font-size: 2.3rem;
+  color: #EDEDEE;
+  margin-top: 30px;
+}
+
+p {
+  font-family: Helvetica;
+  font-size: 1.3rem;
+  color: #EDEDEE;
+  margin-top: 50px;
+  margin: 0px 90px 20px 90px;
+  text-align: center;
+}
+
+.imgContainer {
+  display: flex;
+  justify-content: space-between;
+  margin: 200px 90px 20px 90px;
+
+}
+
+#reactLogo {
+  max-width: 130px;
+}
+
+#nodeLogo {
+  max-width: 160px;
+}
+
+h3 {
+  font-family: Helvetica;
+  font-size: 1.1rem;
+  color: #EDEDEE;
+  margin: 25px 90px 5px 90px;
+}
+
+#plant {
+  display: block;
+  margin: auto;
+  padding-top: 20px;
+}
+ button {
+  background-color: rgb(136, 215, 194);
+  border-radius: 2%;
+  padding: 15px 30px 15px 30px;
+  border: none;
+  font-family: Helvetica;
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: #202023;
+  text-align: center;
+  display: block;
+  margin: auto;
+  margin-top: 30px;
+ }
+
+#highlight{
+  color: rgb(220, 100, 57);
+}
+#highlightTwo{
+  color: rgb(62, 178, 223);
+}
