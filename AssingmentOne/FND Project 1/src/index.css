@@ -10,9 +10,9 @@ body {
   align-items: center;
   background-color: #23232d;
   width: 100%;
-  left:0px;
+  left: 0px;
   top: 0px;
-  position: absolute;   
+  position: absolute;
 }
 
 .containerTwo {
@@ -64,7 +64,8 @@ h3 {
   margin: auto;
   padding-top: 20px;
 }
- button {
+
+button {
   background-color: rgb(136, 215, 194);
   border-radius: 2%;
   padding: 15px 30px 15px 30px;
@@ -74,14 +75,38 @@ h3 {
   font-weight: bold;
   color: #202023;
   text-align: center;
-  display: block;
-  margin: auto;
-  margin-top: 30px;
- }
+  margin-top: 60px;
+  margin-bottom: 40px;
+  position: absolute;
+  right: 535px;
+  bottom: 180px;
+}
 
-#highlight{
+#highlight {
   color: rgb(220, 100, 57);
 }
-#highlightTwo{
+
+#highlightTwo {
   color: rgb(62, 178, 223);
+}
+
+#profileContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  align-items: center;
+  margin: 0px 10px 0px 90px;
+}
+
+#profileImg {
+  max-width: 300px;
+  height: auto;
+  padding-top: 90px;
+}
+
+#profileContainer p {
+  font-size: 1.1rem;
+  text-align: left;
+  align-self: flex-start;
+  padding-top: 90px;
 }
