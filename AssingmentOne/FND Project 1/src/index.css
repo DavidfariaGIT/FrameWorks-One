@@ -126,3 +126,38 @@ button {
   font-size: 1.1rem;
   margin-top: 30px;
 }
+
+.props{
+  text-align: center;
+  font-family: Helvetica;
+  margin-top: 60px;
+  color: white;
+  font-size: 2.2rem;
+
+}
+
+#avatarContainer{
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  text-align: center;
+  margin-top: 100px;
+
+}
+#rel{
+  padding-top: 20px;
+}
+
+.avatar{
+  width: 300px;  
+  height: 400px; 
+  padding: 20px; 
+  border-radius: 8px; 
+  background-color: #24212c; 
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); 
+  transition: box-shadow 0.3s ease; 
+}
+
+.avatar:hover {
+  box-shadow: 0px 4px 10px rgba(217, 214, 229, 0.2); 
+}
